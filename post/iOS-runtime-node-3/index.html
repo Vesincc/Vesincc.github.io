@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head><meta name="generator" content="Hexo 3.8.0">
+<meta charset="utf-8">
+<title>Runtime(三) 对象的初始化过程 - 嘟嘟嘟嘟嘟嘟</title>
+<base href="/">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<link rel="canonical" href="https://vesincc.github.io/post/iOS-runtime-node-3/">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<meta name="description" content="对象的初始化过程在我们平常开发中经常会用到各种各样的对象，而我们在使用对象之前一般会使用alloc + init对其进行初始化操作: 12345@interface Test : NSObject@property (nonatomic, assign) int number;@end 假定有一个Test有一个成员变量number，我们对其进行初始化一般会这样写： 123456Test *test">
+<meta name="keywords" content="Runtime">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Runtime(三) 对象的初始化过程">
+<meta property="og:url" content="https://vesincc.github.io/post/iOS-runtime-node-3/index.html">
+<meta property="og:site_name" content="嘟嘟嘟嘟嘟嘟">
+<meta property="og:description" content="对象的初始化过程在我们平常开发中经常会用到各种各样的对象，而我们在使用对象之前一般会使用alloc + init对其进行初始化操作: 12345@interface Test : NSObject@property (nonatomic, assign) int number;@end 假定有一个Test有一个成员变量number，我们对其进行初始化一般会这样写： 123456Test *test">
+<meta property="og:locale" content="default">
+<meta property="og:image" content="https://s2.ax1x.com/2019/04/23/EA51A0.md.jpg">
+<meta property="og:updated_time" content="2019-07-10T03:35:32.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Runtime(三) 对象的初始化过程">
+<meta name="twitter:description" content="对象的初始化过程在我们平常开发中经常会用到各种各样的对象，而我们在使用对象之前一般会使用alloc + init对其进行初始化操作: 12345@interface Test : NSObject@property (nonatomic, assign) int number;@end 假定有一个Test有一个成员变量number，我们对其进行初始化一般会这样写： 123456Test *test">
+<meta name="twitter:image" content="https://s2.ax1x.com/2019/04/23/EA51A0.md.jpg">
+<link rel="stylesheet" href="/fonts.b9b22ef890c930ac7a13.css">
+<link rel="stylesheet" href="/styles.f3ea1e219d757e5d89f5.css">
+<link rel="stylesheet" href="/theme.b7d02d8e322273ca38f7.css">
+<script src="/config.9f2cd86b8befa5aeea75.js"></script>
+</head>
+<body>
+<is-d2a57d></is-d2a57d>
+<script src="/runtime.a5dd35324ddfd942bef1.js"></script>
+<script src="/polyfills.bd3fb034406e30e3b5dc.js"></script>
+<script src="/main.dcb2507d5003b2c77884.en.js"></script></body>
+</html>
