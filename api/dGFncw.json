@@ -1,1 +1,1 @@
-[{"name":"Runtime","count":7},{"name":"UI","count":1},{"name":"pthread","count":1},{"name":"多线程","count":1}]
+[{"name":"GCD","count":1},{"name":"Operation","count":1},{"name":"Runtime","count":7},{"name":"UI","count":1},{"name":"pthread","count":1},{"name":"多线程","count":1}]
